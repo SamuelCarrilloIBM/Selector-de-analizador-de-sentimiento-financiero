@@ -1,0 +1,73 @@
+{
+  "model": "phi3.5_MLX_base",
+  "date": "2026-03-22 21:22",
+  "dataset": "../../data/raw/nvidia_testing.csv",
+  "n_test": 30,
+  "approach": "MLX base, sin fine-tuning",
+  "performance": {
+    "accuracy": 0.9333,
+    "accuracy_pct": "93.3%",
+    "f1_weighted": 0.933,
+    "precision_weighted": 0.9455,
+    "recall_weighted": 0.9333
+  },
+  "per_class": {
+    "negative": {
+      "f1": 0.8889,
+      "precision": 1.0,
+      "recall": 0.8
+    },
+    "neutral": {
+      "f1": 0.9,
+      "precision": 0.8182,
+      "recall": 1.0
+    },
+    "positive": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "matrix": [
+      [
+        8,
+        2,
+        0
+      ],
+      [
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        11
+      ]
+    ]
+  },
+  "distribution": {
+    "predicted": {
+      "positive": 11,
+      "negative": 8,
+      "neutral": 11
+    },
+    "true": {
+      "positive": 11,
+      "negative": 10,
+      "neutral": 9
+    }
+  },
+  "efficiency": {
+    "inference_ms_mean": 393.54,
+    "inference_ms_std": 137.4,
+    "connection_errors": 0
+  },
+  "reliability": "ALTA"
+}

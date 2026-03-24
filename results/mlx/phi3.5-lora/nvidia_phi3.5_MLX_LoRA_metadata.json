@@ -1,0 +1,73 @@
+{
+  "model": "phi3.5_MLX_LoRA",
+  "date": "2026-03-22 21:23",
+  "dataset": "../../data/raw/nvidia_testing.csv",
+  "n_test": 30,
+  "approach": "MLX LoRA fine-tuned, adapter: ../../models/lora_checkpoints",
+  "performance": {
+    "accuracy": 0.9333,
+    "accuracy_pct": "93.3%",
+    "f1_weighted": 0.935,
+    "precision_weighted": 0.9455,
+    "recall_weighted": 0.9333
+  },
+  "per_class": {
+    "negative": {
+      "f1": 0.9474,
+      "precision": 1.0,
+      "recall": 0.9
+    },
+    "neutral": {
+      "f1": 0.9,
+      "precision": 0.8182,
+      "recall": 1.0
+    },
+    "positive": {
+      "f1": 0.9524,
+      "precision": 1.0,
+      "recall": 0.9091
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "matrix": [
+      [
+        9,
+        1,
+        0
+      ],
+      [
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        1,
+        10
+      ]
+    ]
+  },
+  "distribution": {
+    "predicted": {
+      "positive": 10,
+      "negative": 9,
+      "neutral": 11
+    },
+    "true": {
+      "positive": 11,
+      "negative": 10,
+      "neutral": 9
+    }
+  },
+  "efficiency": {
+    "inference_ms_mean": 409.83,
+    "inference_ms_std": 103.16,
+    "connection_errors": 0
+  },
+  "reliability": "ALTA"
+}

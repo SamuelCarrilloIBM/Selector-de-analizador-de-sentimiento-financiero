@@ -1,0 +1,31 @@
+id,noticia,etiqueta_real,etiqueta_predicha,correcto,tiempo_ms
+1,NVIDIA Blackwell GPUs see record demand in data centers,positive,positive,si,90.7
+2,Regulatory concerns rise over NVIDIA acquisition of AI startup,negative,negative,si,24.1
+3,NVIDIA stock maintains stability despite market volatility,neutral,positive,no,26.3
+4,New software update improves DLSS performance by 20%,positive,positive,si,4.0
+5,Competitor announces chip with better energy efficiency,negative,positive,no,3.7
+6,CEO Jensen Huang discusses the future of robotics at GTC,neutral,neutral,si,33.9
+7,NVIDIA exceeds Q1 earnings expectations by a wide margin,positive,positive,si,4.8
+8,Supply chain delays could impact RTX 50-series launch,negative,negative,si,3.8
+9,Analyst maintains Hold rating for NVDA shares,neutral,neutral,si,3.8
+10,Partnership with major automaker for autonomous driving tech,positive,neutral,no,3.1
+11,NVIDIA expands AI cloud infrastructure globally,positive,positive,si,26.2
+12,Concerns grow over high valuation of NVIDIA stock,negative,negative,si,3.3
+13,NVIDIA announces minor updates to CUDA toolkit,neutral,neutral,si,3.6
+14,Strong demand for AI chips boosts NVIDIA outlook,positive,positive,si,30.5
+15,Export restrictions may limit NVIDIA sales in Asia,negative,negative,si,4.4
+16,NVIDIA holds developer conference with no major surprises,neutral,neutral,si,4.1
+17,Data center revenue reaches all-time high,positive,positive,si,8.8
+18,Production issues slightly affect GPU availability,negative,negative,si,5.0
+19,NVIDIA stock trades flat during quiet session,neutral,negative,no,3.1
+20,New AI model optimized for NVIDIA hardware released,positive,neutral,no,3.2
+21,Investors worry about increasing competition in AI chips,negative,negative,si,2.9
+22,NVIDIA releases quarterly financial report,neutral,neutral,si,25.8
+23,Major cloud providers increase NVIDIA GPU orders,positive,positive,si,3.3
+24,Margins slightly pressured by rising manufacturing costs,negative,negative,si,3.6
+25,NVIDIA updates long-term product roadmap,neutral,neutral,si,4.2
+26,Breakthrough in AI training performance announced,positive,positive,si,3.3
+27,Delays reported in next-gen GPU development,negative,neutral,no,3.2
+28,NVIDIA participates in industry standardization meeting,neutral,neutral,si,3.4
+29,Gaming segment revenue rebounds strongly,positive,positive,si,2.9
+30,Analysts downgrade outlook citing macroeconomic risks,negative,negative,si,3.1

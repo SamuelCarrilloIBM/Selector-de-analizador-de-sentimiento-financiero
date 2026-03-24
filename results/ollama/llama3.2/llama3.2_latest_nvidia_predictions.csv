@@ -1,0 +1,28 @@
+id,noticia,etiqueta_real,etiqueta_predicha,correcto,tiempo_ms
+1,New software update improves DLSS performance by 20%,positive,positive,si,1971.2
+2,Competitor announces chip with better energy efficiency,negative,negative,si,142.3
+3,CEO Jensen Huang discusses the future of robotics at GTC,neutral,positive,no,136.3
+4,NVIDIA exceeds Q1 earnings expectations by a wide margin,positive,positive,si,136.6
+5,Supply chain delays could impact RTX 50-series launch,negative,negative,si,140.3
+6,Analyst maintains Hold rating for NVDA shares,neutral,neutral,si,134.7
+7,Partnership with major automaker for autonomous driving tech,positive,positive,si,137.0
+8,NVIDIA expands AI cloud infrastructure globally,positive,positive,si,139.3
+9,Concerns grow over high valuation of NVIDIA stock,negative,negative,si,139.0
+10,NVIDIA announces minor updates to CUDA toolkit,neutral,neutral,si,136.8
+11,Strong demand for AI chips boosts NVIDIA outlook,positive,positive,si,140.5
+12,Export restrictions may limit NVIDIA sales in Asia,negative,negative,si,141.5
+13,NVIDIA holds developer conference with no major surprises,neutral,neutral,si,139.5
+14,Data center revenue reaches all-time high,positive,positive,si,136.6
+15,Production issues slightly affect GPU availability,negative,negative,si,137.3
+16,NVIDIA stock trades flat during quiet session,neutral,neutral,si,154.3
+17,New AI model optimized for NVIDIA hardware released,positive,positive,si,141.0
+18,Investors worry about increasing competition in AI chips,negative,negative,si,139.3
+19,NVIDIA releases quarterly financial report,neutral,neutral,si,133.8
+20,Major cloud providers increase NVIDIA GPU orders,positive,positive,si,140.0
+21,Margins slightly pressured by rising manufacturing costs,negative,negative,si,141.4
+22,NVIDIA updates long-term product roadmap,neutral,positive,no,137.6
+23,Breakthrough in AI training performance announced,positive,positive,si,141.3
+24,Delays reported in next-gen GPU development,negative,negative,si,141.7
+25,NVIDIA participates in industry standardization meeting,neutral,neutral,si,141.6
+26,Gaming segment revenue rebounds strongly,positive,positive,si,138.2
+27,Analysts downgrade outlook citing macroeconomic risks,negative,negative,si,137.7

@@ -1,0 +1,32 @@
+{
+  "model": "phi3.5:latest",
+  "date": "2026-03-22 23:10",
+  "dataset": "../../data/raw/nvidia_real_news.csv",
+  "n_samples": 100,
+  "approach": "advanced financial prompt — chain-of-thought with relevance gate",
+  "temperature": 0.0,
+  "prompt_version": "v2 — relevance gate + 5-step CoT + few-shot difficult cases",
+  "distribution": {
+    "sentiment": {
+      "positive": 36,
+      "neutral": 61,
+      "negative": 3
+    },
+    "intensity": {
+      "strong": 27,
+      "weak": 61,
+      "moderate": 12
+    },
+    "relevance": {
+      "high": 30,
+      "none": 56,
+      "medium": 8,
+      "low": 6
+    }
+  },
+  "efficiency": {
+    "inference_ms_mean": 2453.52,
+    "inference_ms_std": 624.47,
+    "connection_errors": 0
+  }
+}

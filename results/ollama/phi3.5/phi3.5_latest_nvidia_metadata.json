@@ -1,0 +1,74 @@
+{
+  "model": "phi3.5:latest",
+  "date": "2026-03-22 21:56",
+  "dataset": "../../data/raw/nvidia_testing.csv",
+  "n_test": 27,
+  "approach": "few-shot (3 ejemplos NVIDIA)",
+  "temperature": 0.0,
+  "performance": {
+    "accuracy": 1.0,
+    "accuracy_pct": "100.0%",
+    "f1_weighted": 1.0,
+    "precision_weighted": 1.0,
+    "recall_weighted": 1.0
+  },
+  "per_class": {
+    "negative": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "neutral": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "positive": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "matrix": [
+      [
+        9,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        0
+      ],
+      [
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "distribution": {
+    "predicted": {
+      "positive": 10,
+      "negative": 9,
+      "neutral": 8
+    },
+    "true": {
+      "positive": 10,
+      "negative": 9,
+      "neutral": 8
+    }
+  },
+  "efficiency": {
+    "inference_ms_mean": 183.13,
+    "inference_ms_std": 346.73,
+    "connection_errors": 0
+  },
+  "reliability": "ALTA"
+}

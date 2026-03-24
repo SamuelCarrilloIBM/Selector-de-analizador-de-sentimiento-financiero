@@ -1,0 +1,31 @@
+{
+  "model": "qwen2.5:7b",
+  "date": "2026-03-22 23:29",
+  "dataset": "../../data/raw/nvidia_real_news.csv",
+  "n_samples": 100,
+  "approach": "advanced financial prompt — chain-of-thought with relevance gate",
+  "temperature": 0.0,
+  "prompt_version": "v2 — relevance gate + 5-step CoT + few-shot difficult cases",
+  "distribution": {
+    "sentiment": {
+      "neutral": 74,
+      "negative": 5,
+      "positive": 21
+    },
+    "intensity": {
+      "weak": 82,
+      "moderate": 15,
+      "strong": 3
+    },
+    "relevance": {
+      "none": 73,
+      "high": 20,
+      "medium": 7
+    }
+  },
+  "efficiency": {
+    "inference_ms_mean": 1023.65,
+    "inference_ms_std": 74.47,
+    "connection_errors": 0
+  }
+}
