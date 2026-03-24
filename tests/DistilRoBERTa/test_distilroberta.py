@@ -26,6 +26,7 @@ RESULTS_DIR = "../../results/bert/distilroberta"
 LABEL_MAP   = {"negative": 0, "neutral": 1, "positive": 2}
 LABEL_NAMES = ["negative", "neutral", "positive"]
 
+
 device = "mps" if torch.backends.mps.is_available() else "cpu"
 print(f"Usando dispositivo: {device}")
 
